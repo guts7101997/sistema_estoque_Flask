@@ -4,7 +4,7 @@ import mysql.connector
 app = Flask(__name__)
 app.secret_key = "chave_secreta_123"
 
-# ── Conexão ──────────────────────────────────────────────
+#Conexão 
 def get_conexao():
     return mysql.connector.connect(
         host='localhost',
@@ -14,7 +14,7 @@ def get_conexao():
     )
 
 
-# ── Rotas ────────────────────────────────────────────────
+# Rotas 
 
 @app.route('/')
 def index():
