@@ -1,4 +1,4 @@
-# 📦 Sistema de Estoque com Flask
+#  Sistema de Estoque com Flask
 
 Sistema CRUD de estoque desenvolvido em Python com Flask e MySQL.
 
